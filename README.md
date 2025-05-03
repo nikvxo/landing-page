@@ -1,0 +1,1 @@
+This is practice to get a hang of CSS and Flexbox fundamentals in creating website layouts.
