@@ -1,0 +1,33 @@
+body{
+    background-color: #1f2937;
+    font-family: arial;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    color: #f9faf8;
+    display: flex;
+    font-size: 24px;
+    padding: 16px;
+    justify-content: space-around;;
+}
+.logo{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
