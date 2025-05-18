@@ -1,6 +1,6 @@
 body{
     background-color: #1f2937;
-    font-family: arial;
+    font-family: "Roboto", sans-serif;
 }
 
 .container{
@@ -30,4 +30,124 @@ ul{
 a{
     text-decoration: none;
     color: #f9faf8;
+}
+
+.box-1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 50px 15%;
+    background-color: #1f2937;
+    gap: 30px;
+    padding: 50px 25%;
+
+}
+#left-text {
+    width: 45%;
+    color: #f9faf8;
+}
+
+#left-text h1 {
+    font-size: 48px; 
+    font-weight: bold;
+    color: #f9faf8;
+    margin-bottom: 10px;
+} 
+
+#left-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 20px;
+}
+
+#left-text button {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#right-text {
+    background-color: grey;
+    width: 500px;
+    height: 250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+}
+
+.box-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.box-2 .containers{
+    display:flex;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: row;
+    padding: 0 20%;
+    
+}
+
+#info-1, #info-2, #info-3, #info-4{
+    display:flex;
+    color: grey;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+} 
+
+#outline-1, #outline-2, #outline-3, #outline-4{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+   
+}
+
+.box-2 h1 {
+    font-size: 28px; 
+    color: #1f2937; 
+    margin-bottom: 30px;
+    margin-top: 30px; 
+    font-weight: bold;
+}
+
+#info-1 p, #info-2 p, #info-3 p, #info-4 p {
+    margin-top: 5px;
+    font-size: 14px; 
+    color: #666; 
+    width: 120px; 
+    text-align: center;
+}
+
+.box-3{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+#quote{
+    font-size: 36px;
+    font-family: light italic;
+    color: #1f2937;
+    text-align: center;
+    font-style: italic; 
+    margin: 0 30%; 
+
+}
+
+#sign{
+    text-align: center;
+    margin-left: 500px;
+    font-weight: bold;
+    font-size: 18px;
+
 }
