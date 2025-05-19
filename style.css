@@ -12,7 +12,7 @@ body{
     display: flex;
     font-size: 24px;
     padding: 16px;
-    justify-content: space-around;;
+    justify-content: space-around;
 }
 .logo{
     font-weight: bold;
@@ -23,7 +23,7 @@ body{
 ul{
     list-style-type: none;
     display: flex;
-    gap: 16px;
+    gap: 32px;
 
 }
 
@@ -104,24 +104,24 @@ a{
 } 
 
 #outline-1, #outline-2, #outline-3, #outline-4{
-    width: 150px;
-    height: 150px;
-    border: 3px solid #3882f6;
+    width: 170px;
+    height: 170px;
+    border: 5px solid #3882f6;
     border-radius: 10px;
    
 }
 
 .box-2 h1 {
-    font-size: 28px; 
+    font-size: 36px; 
     color: #1f2937; 
     margin-bottom: 30px;
     margin-top: 30px; 
-    font-weight: bold;
+    font-weight: 900;
 }
 
 #info-1 p, #info-2 p, #info-3 p, #info-4 p {
     margin-top: 5px;
-    font-size: 14px; 
+    font-size: 17px; 
     color: #666; 
     width: 120px; 
     text-align: center;
@@ -136,11 +136,10 @@ a{
 
 #quote{
     font-size: 36px;
-    font-family: light italic;
     color: #1f2937;
     text-align: center;
-    font-style: italic; 
     margin: 0 30%; 
+    font-family: light italic
 
 }
 
@@ -148,6 +147,28 @@ a{
     text-align: center;
     margin-left: 500px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 23px;
 
+}
+
+.box-4{
+    background-color: white; 
+    
+    
+}
+.bluebox{
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    gap: 120px;
+    
+}
+#button-box{
+    align-self:center;
+    background-color: #3882f6;
+    border: 5px solid white;
+
+}
+#action-box{
+    
 }
