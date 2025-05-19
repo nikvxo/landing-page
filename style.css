@@ -5,10 +5,10 @@ body{
 
 .container{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /*Align all elements in column*/
 }
 .header{
-    color: #f9faf8;
+    color: #f9faf8; 
     display: flex;
     font-size: 24px;
     padding: 16px;
