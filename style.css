@@ -152,23 +152,44 @@ a{
 }
 
 .box-4{
-    background-color: white; 
-    
+    background-color: white;
+    padding: 100px 20%;
     
 }
 .bluebox{
     display: flex;
     background-color: #3882f6;
     color: white;
-    gap: 120px;
+    border-radius: 8px;
+    padding: 45px;
+    justify-content: center;
+    gap: 300px;
+    
     
 }
 #button-box{
     align-self:center;
     background-color: #3882f6;
-    border: 5px solid white;
+    border: 1px solid white;
+    border-radius: 10px;
 
 }
-#action-box{
-    
+#button-box button {
+    color: white;
+    background-color: #3882f6;
+    padding: 15px 40px;
+    border: 2px solid white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    white-space: nowrap; 
+}
+#action-box p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0;
+}
+
+#action-box h1 {
+    margin-bottom: 2px;
 }
