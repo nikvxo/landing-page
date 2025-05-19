@@ -139,7 +139,8 @@ a{
     color: #1f2937;
     text-align: center;
     margin: 0 30%; 
-    font-family: light italic
+    font-family: light italic;
+    font-style: italic;
 
 }
 
@@ -182,14 +183,23 @@ a{
     font-size: 18px;
     font-weight: bold;
     border-radius: 8px;
-    white-space: nowrap; 
+    white-space: nowrap;
+    cursor: pointer; 
 }
 #action-box p {
-    color: #e5e7eb;
+    color: white;
     font-size: 18px;
     margin: 0;
 }
 
 #action-box h1 {
     margin-bottom: 2px;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
 }
